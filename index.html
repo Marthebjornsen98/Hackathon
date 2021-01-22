@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <header>
+    </header> -->
+    <main>
+        <!-- This is the header, it is located in the main to get the full background -->
+        <div class="hero__container">
+            <div class="nav__container">
+                <div class="logo__container">
+                    <!-- I got the picture from here: https://rickandmortypod.com/ -->
+                    <a href="#">
+                        <img class="logo" src="img/netflix-logo.png" alt="Netflix logo">
+                    </a>
+                </div>
+                <div class="menu__list--container">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="https://www.netflix.com/search?q=rick%20and%20&jbv=80014749">Go
+                                back</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Rick and Morty logo -->
+            <div class="rickandmorty__section">
+                <div class="rickandmorty__logo--container">
+                    <img class="rickandmorty-logo" src="img/rickandmorty-logo.png" alt="Rick and Morty logo">
+                </div>
+            </div>
+            <!-- I have used this for the bounce: https://animate.style/#usage here -->
+            <div class="scroll-down__container">
+                <div class="animate__animated animate__pulse">
+                    <p class="scroll-down"><a href="#scroll">Scroll down</a></p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="heading" id="scroll">
+            <h1>Meet the characters</h1>
+        </div>
+        <div class="card__container" id="card__container"></div>
+    </main>
+    <footer>
+        <div class="about">
+            <div class="logo__footer--container">
+                <img class="logo__footer" src="img/rickandmorty-logo.png" alt="Rick and Morty logo">
+            </div>
+            <div class="about__text--container">
+                <p class="about__text">
+                    An animated series on adult-swim about the infinite adventures of Rick, a genius alcoholic and
+                    careless scientist, with his grandson Morty, a 14 year-old anxious boy who is not so smart.
+                    Together, they explore the infinite universes; causing mayhem and running into trouble.</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/RickandMorty/" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/rickandmorty/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/rickandmorty" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+        <div class="footer__container">
+            <ul class="footer__list">
+                <li class="footer__item--header">About</li>
+                <li class="footer__item"><a href="#">Did you know?</a></li>
+                <li class="footer__item"><a href="#">About the plot</a></li>
+                <li class="footer__item"><a href="#">Character details</a></li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer__item--header">Contact</li>
+                <li class="footer__item"><a href="#">Q&A</a></li>
+                <li class="footer__item"><a href="#">Mail</a></li>
+                <li class="footer__item"><a href="#">Phone</a></li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer__item--header">Cast</li>
+                <li class="footer__item"><a href="#">Creators</a></li>
+                <li class="footer__item"><a href="#">Get a role</a></li>
+                <li class="footer__item"><a href="#">writers</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript file -->
+    <script src="js/script.js"></script>
+    <script src="js/rickandmorty.js"></script>
+</body>
+
+</html>

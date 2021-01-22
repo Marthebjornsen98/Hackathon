@@ -1,0 +1,72 @@
+footer {
+    width: 75%;
+    margin: 150px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__container {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* About the show */
+.about {
+    width: 30%;
+}
+
+/* Rick and Morty logo */
+.logo__footer--container {
+    width: 50%;
+}
+
+.logo__footer {
+    width: 100%;
+}
+
+/* Rick and Morty about text */
+.about__text {
+    margin-top: 30px;
+    line-height: 1.5rem;
+}
+
+.footer__container {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Footer header*/
+.footer__item--header {
+    font-size: 1.25rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer__item:hover {
+    transition: var(--transition);
+    transform: var(--hover-up);
+}
+
+/* Rick and Morty social media */
+.social-media {
+    margin-top: 30px;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter-square {
+    font-size: var(--icon-size);
+    padding-right: 20px;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-twitter-square:hover {
+    transition: var(--transition);
+    transform: var(--hover-up);
+}

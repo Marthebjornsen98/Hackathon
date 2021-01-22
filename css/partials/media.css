@@ -1,0 +1,101 @@
+/* HEADER SECTION*/
+@media (max-width: 991px){
+    /* Tablet */
+
+    .nav__container {
+        width: 85%;
+        position: static;
+    }
+}
+
+/* MAIN SECTION*/
+@media (max-width: 991px){
+     /* Tablet */
+
+    .hero__container {
+        height: 900px;
+    }
+
+    .rickandmorty__section{
+        padding-top: 150px;
+    }
+
+    .rickandmorty__logo--container{
+        width: 40%;
+    }
+
+    .scroll-down__container{
+        margin-top: 80px;
+    }
+
+    .heading {
+        width: 85%;
+    }
+
+    .card__container {
+        width: 85%;
+    }
+
+    .card {
+        width: 31%;
+    }
+
+    h2{
+        font-size: 1.25rem;
+    }
+
+    .logo__footer--container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px){
+    /* Mobile */
+
+    .hero__container {
+        height: 800px;
+    }
+
+    .rickandmorty__logo--container{
+        width: 50%;
+    }
+
+    .heading {
+        margin: 50px auto 0px auto;
+    }
+
+    .card {
+        width: 47%;
+        margin: 10px 0px;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.875rem;
+    }
+    
+}
+
+/* FOOTER SECTION*/
+@media (max-width: 991px){
+    /* Tablet */
+
+    footer {
+        width: 85%;
+    }
+}
+
+@media (max-width: 767px){
+    /* Mobile */
+
+    footer{
+        margin: 100px auto 100px auto;
+    }
+
+    .about {
+        width: 100%;
+    }
+}

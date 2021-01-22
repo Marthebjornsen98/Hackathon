@@ -1,0 +1,39 @@
+/* Header and navigation */
+.nav__container {
+    position: fixed;
+    left: 70px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__container {
+    width: 130px;
+}
+
+.logo{
+    width: 100%;
+}
+
+.menu__list--container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.menu__list {
+    color: #ffffff;
+    text-shadow:
+      0 0 10px #ffffff,
+      0 0 50px #ffffff;
+}
+
+.menu__item:hover{
+    transition: var(--transition);
+    transform: var(--hover-up);
+}

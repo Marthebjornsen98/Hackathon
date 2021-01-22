@@ -1,0 +1,7 @@
+:root {
+    --font-color: #ffffff;
+    --icon-size: 2rem;
+    --transition: 0.3s;
+    --hover-up: translateY(-3px);
+    --box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 1);
+}
