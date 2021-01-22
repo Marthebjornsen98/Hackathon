@@ -1,4 +1,5 @@
 /* background image hero */
+/* I got the picture from here: https://rickandmortypod.com/ */
 .hero__container {
     height: 980px;
     background-image: url(../../img/rickandmorty-background.png);
@@ -57,7 +58,7 @@
     margin: 100px auto 0px auto;
 }
 
-/* cards */
+/* Cards */
 .card__container {
     width: 75%;
     margin: 20px auto 0px auto;
@@ -66,6 +67,7 @@
     justify-content: space-between;
 }
 
+/* The different statuses */
 .alive,
 .dead,
 .unknown {
@@ -96,7 +98,6 @@
     transform: var(--hover-up);
     cursor: pointer;
 }
-
 
 .card__img {
     width: 100%;
