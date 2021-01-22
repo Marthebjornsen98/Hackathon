@@ -4,4 +4,6 @@
     --transition: 0.3s;
     --hover-up: translateY(-3px);
     --box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 1);
+    --dead-shadow: 0px 10px 20px 0px rgba(255, 78, 78, 0.5);
+    --unknown-shadow: 0px 10px 20px 0px rgba(249, 246, 116, 0.5);
 }

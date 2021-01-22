@@ -745,17 +745,17 @@ var rickAndMortyArray = [
 
 function editHtml(name, species, status, image) {
     for (var i = 0; i < rickAndMortyArray.length; i++) {
-        var type = '';
-        if (rickAndMortyArray[i].status === 'alive') {
-            type = 'aliveClass';
-        } else if (rickAndMortyArray[i].status === 'alive') {
-            type = 'deadClass';
+        var statusClass = '';
+        if (rickAndMortyArray[i].status === 'Alive') {
+            statusClass = 'alive';
+        } else if (rickAndMortyArray[i].status === 'Dead') {
+            statusClass = 'dead';
         } else {
-            type = 'unknownClass';
-        }
+            statusClass = 'unknown';
+        };
 
-        document.getElementById('card__container').innerHTML +
-            '<div class="' + type + '">' +
+        document.getElementById('card__container').innerHTML +=
+            '<div class="' + statusClass + '">' +
             '<img class="card__img" src="' +
             rickAndMortyArray[i].image + '">' +
             '<div class="card__text"><h2>' +
@@ -765,10 +765,7 @@ function editHtml(name, species, status, image) {
             '</p><p>' +
             rickAndMortyArray[i].status +
             '</p></div></div>';
-    }
+    };
 }
 
 editHtml();
-
-// document.querySelector('.card__container').innerHTML +
-// '<div class="card">

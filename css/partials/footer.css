@@ -6,14 +6,6 @@ footer {
     justify-content: space-between;
 }
 
-.footer__container {
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 /* About the show */
 .about {
     width: 30%;
@@ -34,17 +26,24 @@ footer {
     line-height: 1.5rem;
 }
 
+/* About, Contact and Cast */
 .footer__container {
     width: 60%;
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-/* Footer header*/
+/* Footer item header*/
 .footer__item--header {
     font-size: 1.25rem;
     padding-bottom: 20px;
     font-weight: bold;
+}
+
+.footer__item{
+    padding-bottom: 10px;
 }
 
 .footer__item:hover {

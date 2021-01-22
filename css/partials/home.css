@@ -65,21 +65,37 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/* 
-.card {
+
+.alive,
+.dead,
+.unknown {
     border: solid 2px #1b1c1e;
     width: 22%;
     color: white;
     margin: 30px 0px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
-} */
+}
 
-/* .card:hover {
+.alive {
+    background-color: #1b1c1e;
+}
+
+.dead {
+    box-shadow: var(--dead-shadow);
+}
+
+.unknown {
+    box-shadow: var(--unknown-shadow);
+}
+
+.alive:hover,
+.dead:hover,
+.unknown:hover {
     transition: var(--transition);
     transform: var(--hover-up);
     cursor: pointer;
-} */
+}
 
 
 .card__img {
@@ -91,32 +107,6 @@
     padding: 20px;
 }
 
-.aliveClass {
-    background-color: black;
-    border: solid 2px #1b1c1e;
-    width: 22%;
-    color: white;
-    margin: 30px 0px;
-    border-radius: 10px;
-    box-shadow: var(--box-shadow);
-}
-
-.deadClass {
-    background-color: red;
-    border: solid 2px #1b1c1e;
-    width: 22%;
-    color: white;
-    margin: 30px 0px;
-    border-radius: 10px;
-    box-shadow: var(--box-shadow);
-}
-
-.unknownClass {
-    background-color: yellow;
-    border: solid 2px #1b1c1e;
-    width: 22%;
-    color: white;
-    margin: 30px 0px;
-    border-radius: 10px;
-    box-shadow: var(--box-shadow);
+p{
+    padding-top: 5px;
 }

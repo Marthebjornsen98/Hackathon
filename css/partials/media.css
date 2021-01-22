@@ -36,7 +36,9 @@
         width: 85%;
     }
 
-    .card {
+    .alive,
+    .dead,
+    .unknown{
         width: 31%;
     }
 
@@ -64,7 +66,9 @@
         margin: 50px auto 0px auto;
     }
 
-    .card {
+    .alive,
+    .dead,
+    .unknown {
         width: 47%;
         margin: 10px 0px;
     }
@@ -85,6 +89,20 @@
 
     footer {
         width: 85%;
+        margin: 100px auto 100px auto;
+        display: block;
+    }
+
+    .logo__footer--container {
+        width: 40%;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .footer__container {
+        margin-top: 50px;
     }
 }
 
@@ -93,9 +111,32 @@
 
     footer{
         margin: 100px auto 100px auto;
+        display: block;
+    }
+
+    .logo__footer--container {
+        width: 40%;
     }
 
     .about {
         width: 100%;
     }
+
+    .footer__container {
+        width: 100%;
+        margin: 50px auto 0px auto;
+    }
 }
+
+@media (max-width: 767px){
+    /* Small Mobile */
+
+    .footer__container {
+        display: block;
+    }
+
+    .footer__list {
+        margin-top: 40px;
+    }
+}
+
